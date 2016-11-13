@@ -1,0 +1,26 @@
+<html>
+<head>
+
+        <link rel="stylesheet" href="https://bootswatch.com/paper/bootstrap.min.css" />
+        <!--<link rel="stylesheet" type="text/css" href=/static/style.css />-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+<body>
+<h1 th:text="${message}">Text inside tag will be replaced by ${message}</h1>
+<h2 th:text="${bela.name}">Bela</h2>
+<!--<h3 th:text="${user}"></h3>-->
+
+
+<form action="" method="post">
+    First name:<br />
+    <input type="text" name="firstname" value="Mickey" />
+    <br />
+    Last name:<br />
+    <input type="text" name="lastname" value="Mouse" />
+    <br />
+    <input type="submit" value="Submit" />
+</form>
+
+</body>
+</html>
